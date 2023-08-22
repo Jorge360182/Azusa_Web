@@ -1,0 +1,32 @@
+html {
+    background: rgb(84, 58, 233);
+}
+
+section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#navbar, section.even {
+    background: linear-gradient(rgb(0, 88, 189), rgb(0, 88, 189));
+}
+
+footer {
+    background: rgb(0, 0, 0);
+    padding: 2rem 0;
+}
+
+hr {
+    height: 0.1rem;
+    max-width: 100%;
+    border: 0;
+    background-image: rgb(255, 0, 0);
+}
+
+section.even hr {
+        background-image: rgb(255, 0, 0);
+}
+
+section hr {
+    margin-bottom: 5rem;
+}

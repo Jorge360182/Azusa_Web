@@ -1,0 +1,27 @@
+.contenedorvid {
+  border: 15px solid rgb(1, 67, 94);
+  background: rgb(0, 103, 151);
+  border-radius: 1.5rem;
+  padding: 1%;
+  position: relative;
+  max-width: 100%;
+  height: auto;
+} 
+
+.contenedorvid video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  max-width: 100%; /* Cambio realizado */
+}
+
+@media (min-width: 800px) {
+  .contenedorvid video {
+      max-width: 800px;
+      height: auto;
+  }
+}
+
+video, iframe {
+  border-radius: .9rem;
+}

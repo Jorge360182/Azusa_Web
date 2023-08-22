@@ -1,0 +1,61 @@
+#fotos div {
+  border: solid #62027a 10px;
+  border-radius: 1.5rem;
+  background: rgb(5, 37, 141);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+#fotos button {
+  display: inline-block;
+  position: relative;
+  margin: 0.5rem;
+  width: calc(33.33% - 1rem);
+  height: 200px; /* Tamaño fijo para los botones */
+  overflow: hidden;
+  box-shadow: rgb(179, 197, 255);
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+#fotos img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform ease .3s;
+}
+
+#fotos button:hover img {
+  transform: scale(1.2);
+}
+
+.image-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 999;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-overlay.active {
+  display: flex;
+}
+
+.image-overlay img {
+  max-width: 90%;
+  max-height: 90%;
+}

@@ -1,0 +1,102 @@
+body {
+    font-family: arial;
+    color: white;
+    font-size: 14px;
+}
+
+header,
+footer,
+section.even {
+    color: white;
+}
+
+
+h3 {
+    font-size: 2rem;
+    color: rgb(185, 14, 185);
+}
+
+
+h2, h3 {
+    letter-spacing: 0.3rem;
+}
+
+
+h3{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+h4 {
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(126, 46, 230);
+}
+
+
+h1, h2 {
+    position: relative;
+    top: 155px;
+    text-align: center;
+} 
+
+
+header hr {
+    position: relative;
+    top: 155px;
+    text-align: center;
+}
+
+
+h1 {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav, img {
+    text-align: center;
+}
+
+
+.section, form, button {
+    text-align: center;
+}
+
+
+#videos {
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+} 
+
+nav div a span {
+    animation-name: nombre;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    color: rgb(245, 97, 213);
+} 
+
+@keyframes nombre {
+    50% {
+      color: rgb(139, 18, 238);
+    }
+  
+    55% {
+      color: rgb(167, 89, 240);
+    }
+  
+    50% {
+      color: rgb(71, 188, 241);
+    }
+  }
+
+/* #hamburger{
+    position: relative;
+    right: 5.3%;
+} */
