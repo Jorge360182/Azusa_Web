@@ -1,0 +1,22 @@
+{
+  "name": "web_azusa",
+  "version": "1.0.0",
+  "description": "webAzusa",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jorge360182/Azusa_Web.git"
+  },
+  "author": "Jorge Herrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jorge360182/Azusa_Web/issues"
+  },
+  "homepage": "https://github.com/Jorge360182/Azusa_Web#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
